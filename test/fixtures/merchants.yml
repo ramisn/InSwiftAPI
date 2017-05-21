@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  consumer_id: 
+  merchant_name: MyString
+  domain: MyString
+
+two:
+  consumer_id: 
+  merchant_name: MyString
+  domain: MyString

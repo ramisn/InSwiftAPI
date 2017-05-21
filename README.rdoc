@@ -1,0 +1,6 @@
+InSwift API
+
+* Create database.yml file in config folder
+* run rake db:seed for dummy transactions from Faker gem
+* run the rails server
+
