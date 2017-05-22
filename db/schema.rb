@@ -20,6 +20,13 @@ ActiveRecord::Schema.define(version: 20170520103658) do
     t.datetime "updated_at",             null: false
   end
 
+  create_table "locations", force: :cascade do |t|
+    t.string   "zip1",       limit: 255
+    t.string   "zip2",       limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
   create_table "merchants", force: :cascade do |t|
     t.integer  "consumer_id",   limit: 4
     t.string   "merchant_name", limit: 255
