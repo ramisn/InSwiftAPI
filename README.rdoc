@@ -4,3 +4,12 @@ InSwift API
 * run rake db:seed for dummy transactions from Faker gem
 * run the rails server
 
+* Execute InSwiftAPI.rb or InSwiftAPI.sh file to extract API Data
+* It can be execute GET,POST and PUT 
+
+InSwift ZIP Code
+* Set your ZIPCode KEY as environment variable ENV["ZIP_KEY"]
+* Hit http://localhost:3000/locations
+* Enter ZIP Codes to get Distance
+
+
